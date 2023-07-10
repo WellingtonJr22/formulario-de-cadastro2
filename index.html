@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Formulario de cadastro</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/imagem/undraw_sign_up_n6im.svg">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="fullname">Nome completo</label>
+                        <input id="fullname" type="text" name="fullname" placeholder="Digite seu nome completo "
+                            required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="CPF">CPF</label>
+                        <input id="CPF" type="text" name="CPF" placeholder="Digite seu CPF" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Email">E-mail</label>
+                        <input id="Email" type="email" name="Email" placeholder="Digite seu E-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="address">Endereço</label>
+                        <input id="address" type="text" name="address" placeholder="Digite seu Endereço" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="neighborhood">Bairro</label>
+                        <input id="neighborhood" type="text" name="neighborhood" placeholder="Digite seu Bairro"
+                            required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="city">Cidade</label>
+                        <input id="city" type="text" name="city" placeholder="Digite sua Cidade" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="zip code">CEP</label>
+                        <input id="zip code" type="text" name="zip code" placeholder="Digite seu CEP" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="uf">UF:</label>
+                        <select id="uf" name="uf" required>
+                            <option value="">Selecione</option>
+                            <option value="AC">Acre - AC</option>
+                            <option value="AL">Alagoas - AL</option>
+                            <option value="AP">Amapa - AP</option>
+                            <option value="AM">Amazonas - AM</option>
+                            <option value="BA">Bahia - BA</option>
+                            <option value="CE">Ceara - CE</option>
+                            <option value="DF">Distrito Federal - DF</option>
+                            <option value="ES">Espi­rito Santo - ES</option>
+                            <option value="GO">Goiás - GO</option>
+                            <option value="MA">Maranhão - MA</option>
+                            <option value="MT">Mato Grosso - MT</option>
+                            <option value="MS">Mato Grosso do Sul - MS</option>
+                            <option value="MG">Minas Gerais - MG</option>
+                            <option value="PA">Para - PA</option>
+                            <option value="PB">Parai­ba - PB</option>
+                            <option value="PR">Parana - PR</option>
+                            <option value="PE">Pernambuco - PE</option>
+                            <option value="PI">Piau­i- PI</option>
+                            <option value="RR">Roraima - RR</option>
+                            <option value="RO">Rondônia - RO</option>
+                            <option value="RJ">Rio de Janeiro - RJ</option>
+                            <option value="RN">Rio Grande do Norte - RN</option>
+                            <option value="RS">Rio Grande do Sul - RS</option>
+                            <option value="SC">Santa Catarina - SC</option>
+                            <option value="SP">São Paulo - SP</option>
+                            <option value="SE">Sergipe - SE</option>
+                            <option value="TO">Tocantins - TO</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx)  xxxxx-xxxx" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="Data nascimento">Data Nascimento</label>
+                        <input id="Data Nascimento" type="Data nascimento" name="Data nascimento"
+                            placeholder="Digite sua Data de Nascimento" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="Login">Login</label>
+                        <input id="Login" type="Login" name="Login" placeholder="Digite seu Login" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua Senha" required>
+                    </div>
+                </div>
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Gênero</h6>
+                    </div>
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">Feminino</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Masculino</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" id="outros" name="gender">
+                            <label for="outros">Outros</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="matters-inputs">
+                    <div class="matters-title">
+                        <h6>Deseja receber informações sobre os seguintes assuntos abaixo:</h6>
+                    </div>
+                    <div class="matters-group">
+                        <div class="matters-input">
+                            <input type="radio" id="technology" name="matters">
+                            <label for="technology">Tecnologia</label>
+                        </div>
+                        <div class="matters-input">
+                            <input type="radio" id="sports" name="matters">
+                            <label for="sports">Esportes</label>
+                        </div>
+                        <div class="matters-input">
+                            <input type="radio" id="automobiles" name="matters">
+                            <label for="automobiles">Automóveis</label>
+                        </div>
+                        <div class="matters-input">
+                            <input type="radio" id="culinária" name="matters">
+                            <label for="culinária">Culinária</label>
+                        </div>
+                        <div class="matters-input">
+                            <input type="radio" id="política" name="matters">
+                            <label for="política">Política</label>
+                        </div>
+                        <div class="matters-input">
+                            <input type="radio" id="police officer" name="matters">
+                            <label for="police officer">Policial</label>
+                        </div>
+
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Confirmar</a></button>
+                        <button><a href="#">Retornar</a></button>
+                    </div>
+
+                    <script src="./assets/Js/index.js"></script>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
